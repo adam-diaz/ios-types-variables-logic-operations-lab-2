@@ -20,7 +20,18 @@ var grade1 = 7.0
 var grade2 = 9.0
 var grade3 = 5.0
 
-// your code here
+/*
+var yourGrade = d
+
+let avg = (a + b + c + d) / 4
+print(avg)
+
+if yourGrade > avg{
+    print("above average")
+} else {
+    print("below average")
+}
+*/
 ```
 
 ***
@@ -31,7 +42,13 @@ You are given a number. Print even if the number is even or odd otherwise.
 ```swift
 let number = 2
 
-// your code here
+/* if number % 2 == 0 {
+    print("even number")
+} else {
+    print("odd number")
+}
+*/
+
 ```
 
 ***
@@ -43,7 +60,8 @@ You are given two numbers `a` and `b`. Print `"divisible"` if `a` is divisible b
 var a = 12
 var b = 3
 
-// code here
+// let result = a % b
+// print(a % b == 0 ? "divisible" : "not divisible")
 ```
 
 ***
@@ -56,7 +74,12 @@ var a = 2
 var b = 3
 var c = 2
 
-// your code here
+/* if a == b || b == c || a == c {
+    print("at least two variables are the same")
+} else {
+    print("all values are different")
+}
+*/
 ```
 
 ***
@@ -68,7 +91,17 @@ You are working on a smart-fridge. The smart-fridge knows how old the eggs and b
 var baconAge = 6 // the bacon is 6 days old
 var eggsAge = 12 // eggs are 12 days old
 
-// your code here
+/*
+if baconAge <= 7 && eggsAge <= 21{
+print("cook bacon and eggs")
+} else if baconAge <= 7 && eggsAge > 21 {
+print("throwout eggs")
+} else if baconAge > 7 && eggsAge <= 21 {
+print("throwout bacon")
+} else if baconAge > 7 && eggsAge > 21 {
+print("throwout bacon and eggs")
+}
+*/
 ```
 
 ***
@@ -175,7 +208,7 @@ d. let yearPublished = "Nineteen-thirty-five"
 ***
 ## Question 13
 
-What will the code below print?  Complete this exercise without using an IDE (Integrated Developer Environment) or calculator 
+What will the code below print?  Complete this exercise without using an IDE (Integrated Developer Environment) or calculator
 
 ```swift
 var a = 20
@@ -226,7 +259,7 @@ d. In is an Int
 
 ```
 
-# Bonus 
+# Bonus
 
 ***
 ## Question 1
@@ -235,7 +268,7 @@ What are the differences between Double and Int in the numbers they can represen
 
 
 ***
-## Question 2 
+## Question 2
 
 What are the differences between Float and Double?
 
@@ -260,9 +293,9 @@ d. It will give a compile-time error
 
 ```
 ***
-## Question 4 
+## Question 4
 
-You are given a number a. 
+You are given a number a.
 Print the last digit of a.
 
 var a = 123
@@ -270,14 +303,14 @@ var a = 123
 ```swift
 
 Example 1
-Input: 
+Input:
 var a = 123
 
 Output:
 3
 
 Example 2
-Input: 
+Input:
 var a = 337
 
 Output:
@@ -288,7 +321,7 @@ Output:
 
 ***
 
-## Question 5 
+## Question 5
 
 Given an int, determine and print whether it is even or odd.
 
@@ -296,10 +329,10 @@ Given an int, determine and print whether it is even or odd.
 var number = 5
 
 Example 1
-Input: 
+Input:
 var number = 6
 
-Expected Output: 
+Expected Output:
 Even
 
 ```
@@ -319,7 +352,7 @@ var b = 5.0
 
 ***
 
-## Question 7 
+## Question 7
 
 You are given 3 grades stored in 3 variables of type Double finalsGrade, midtermGrade, projectGrade. These grades are used to compute the grade for a class. finalsGrade represents 50% of the grade. midtermGrade represents 20% of the grade. projectGrade represents 30% of the final grade.
 
@@ -335,14 +368,14 @@ var projectGrade = 3.0
 
 ***
 
-## Question 8 
+## Question 8
 
 You have the cost of a meal at a restaurant stored in a variable mealCost of type Double. You would like to leave a tip of a certain percentage. The percentage is stored in a variable tip of type Int.
 
 ### Print the total cost of the meal.
 ```swift
 
-Input: 
+Input:
 var mealCost:Double = 3.5
 var tip:Int = 20
 
@@ -360,7 +393,7 @@ You are given three grades obtained by 3 students in a class stored in variables
 ### Note: the average of the class includes your grade.
 ```swift
 
-Input: 
+Input:
 var grade1 = 7.0
 var grade2 = 9.0
 var grade3 = 5.0
@@ -372,7 +405,7 @@ Output:
 ```
 ***
 
-## Question 10 
+## Question 10
 
 A farmer is harvesting wheat from a number of wheat fields, given in a variable numberOfFields of type Int. Each field produces the same quantity of wheat given in a variable wheatYieldof type Double. Sometimes the harvest is increased by 50% due to favorable weather conditions. You are given this information in a variable weatherWasGood of type Bool.
 
@@ -381,4 +414,8 @@ A farmer is harvesting wheat from a number of wheat fields, given in a variable 
 <img width="270" alt="Screen Shot 2019-09-12 at 1 50 33 PM" src="https://user-images.githubusercontent.com/43886240/64808175-c03a4180-d564-11e9-8502-4fcade888dc1.png">
 
 ```
+
+
+
+
 
