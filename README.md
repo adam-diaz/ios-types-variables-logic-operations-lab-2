@@ -113,7 +113,14 @@ The above rule is valid except that every 100 years special rules apply. Years t
 ```swift
 let year = 2014
 
-// your code here
+// if year % 4 == 0 {
+// print("leap year")
+// } else {
+// print("not a leap year") 
+
+// prints not a leap year
+
+// honestly i really need help with this one.
 ```
 
 ***
@@ -124,7 +131,11 @@ If you use `random()` it will give you a random number within a specified range.
 ```swift
 let randomNum = Int.random(in: 0...100)
 
-// your code here
+// if randomNum % 2 == 0 {
+//   print("heads")
+// } else {
+//    print("tails")
+// }
 ```
 
 Hint: use an if/else block along with the `%` operator
@@ -140,7 +151,9 @@ var b = 6
 var c = 3
 var d = 4
 
-// your code here
+// let numbers = [a, b, c, d]
+// let lowestNumber = numbers.min()
+// print(lowestNumber)
 ```
 
 ***
@@ -155,6 +168,7 @@ c. !(true || false)
 d. (4 < 3 || 4 > 3) && ("Message: " == "Message: ")
 e. !(3 != 3)
 
+// Answer: a, b, d, e
 ```
 
 ***
@@ -175,8 +189,9 @@ c. ("five" == "5" || "FIVE" == "five" || 5 == 3 + 2) && !y
 d. (x && y) || z > 6
 e. !(z < 6) && !y && !x
 
-```
+// Answer: b, c
 
+```
 
 ***
 ## Question 11
@@ -188,6 +203,8 @@ a. Integers must have a positive or negative sign always.
 b. The maximum value for Integers is +∞.
 c. Integer types in computers take up a fixed amount of memory.
 d. Integers may contain decimals.
+
+// Answer: N/A
 
 ```
 
@@ -202,6 +219,8 @@ a. let numberOfPages: Int = 500
 b. let numberOfChapters = "For Whom The Bell Tolls"
 c. let nameOfBook: Int = 14
 d. let yearPublished = "Nineteen-thirty-five"
+
+// Answer: all of the above
 
 ```
 
@@ -224,6 +243,7 @@ b %= c
 
 print(a + b + c)
 
+// Answer: 30
 ```
 
 ***
@@ -240,7 +260,10 @@ let isEqual = div == div2
 
 3. The value of isEqual is_____________________ (or write "isEqual will not compile")
 
-
+Answer: 
+1. the value of div is 2
+2. the value of div2 is 2.75
+3. isEqual will not compile (you can't merge an Int with a Double)
 ```
 ***
 ## Question 15
@@ -255,8 +278,9 @@ What is true about the variable n?
 a. n is a Float
 b. n is a Double
 c. n is a Decimal
-d. In is an Int
+d. n is an Int
 
+// Answer:  b, c 
 ```
 
 # Bonus
